@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 80%;
+    
+    margin: auto auto;
+}
+
+input{
+    height: 90px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 5%;
+}
+
+button.add{
+      width: 20%;
+      cursor: pointer;
+      background: green;
+      color: white;
+      font-weight: bold;
+      border: none;
+      height: 90px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: auto auto;
+    /*border: 1px solid blue;*/
+    padding-top: 30px;
+
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+    border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      cursor: pointer;
+}
+
+.item-icon{
+    flex: 20%;
+    /*border: 1px solid orangered;*/
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+.item-name{
+    flex: 55%;
+    /*border: 1px solid deeppink;*/
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.item-button{
+    flex: 25%;
+    /* border: 1px solid green; */
+    
+}
+
+.delete{
+    background: red;
+    color: white;
+    border: none;
+    padding: 9px;
+    height: 70px;
+    width: 100%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.mdi-check-circle{
+    color: green;
+}
+
+.item.click{
+    background-color: #d4f6d9;
+}
+
+.item.click .item-name{
+    text-decoration: line-through;
+    color: grey;
+}
+
