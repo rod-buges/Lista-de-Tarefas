@@ -1,1 +1,1 @@
-# Lista-de-Tarefas-HTML-CSS-JS-
+### Este é um projeto de uma lista de tarefas simples, com algumas funções legais! As linguagens usadas na mesma foram: HTML, CSS e JavaScript. É um projeto bem legal que explora várias funções necessárias de se aprender no javascript!
